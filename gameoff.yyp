@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "14707931-6c80-4109-a06d-b17e97c545a9",
+            "Value": {
+                "id": "72a182c6-ef4a-45de-90fd-4d0f0d5da7b0",
+                "resourcePath": "sprites\\spr_player_1_run\\spr_player_1_run.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "27622eaf-33aa-463a-914c-2e3ee9bcee26",
             "Value": {
                 "id": "c9f1f40f-8a78-42c0-9d7c-1443fd872824",
@@ -90,7 +98,7 @@
             "Key": "624cbb52-85e0-4b59-b1b3-4131d97fcd0f",
             "Value": {
                 "id": "d5d96145-adc2-4cd6-b364-07f8fa73ecab",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\r_level\\r_level.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -100,6 +108,22 @@
                 "id": "ba9fb1f0-a7bf-4bd4-834e-61544a13dc3b",
                 "resourcePath": "views\\67e22672-017a-406c-aff4-7a2cb0be80e5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6b9d9d84-f008-4df3-812d-9feb0de4a417",
+            "Value": {
+                "id": "e79cde40-2fab-4ba1-98c0-09044b7c8ecb",
+                "resourcePath": "scripts\\deltaTime\\deltaTime.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "94e8e8ef-bf43-468f-b77c-5cbff95e2f80",
+            "Value": {
+                "id": "67b7b893-b5af-4126-9b91-a4ac1be466ec",
+                "resourcePath": "objects\\obj_player_1\\obj_player_1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -132,6 +156,14 @@
                 "id": "124f987d-137c-4c16-a4ff-cfb53f180d73",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "adc0b94a-237c-4374-b5f6-c127691b931c",
+            "Value": {
+                "id": "e29c5fdf-9b5f-44f3-b278-b20645da5ac5",
+                "resourcePath": "sprites\\spr_player_1_idle\\spr_player_1_idle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -192,7 +224,7 @@
         }
     ],
     "script_order": [
-        
+        "6b9d9d84-f008-4df3-812d-9feb0de4a417"
     ],
     "tutorial": ""
 }
