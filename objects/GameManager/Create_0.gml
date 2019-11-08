@@ -1,0 +1,1 @@
+global.COINS = 0;

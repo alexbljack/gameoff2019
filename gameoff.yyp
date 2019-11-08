@@ -31,11 +31,35 @@
     },
     "resources": [
         {
+            "Key": "05d4cbe4-0ca6-47ae-b9e3-59ac823947f0",
+            "Value": {
+                "id": "d14330b6-b642-45c9-b942-716e67d8611f",
+                "resourcePath": "objects\\UIManager\\UIManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "14707931-6c80-4109-a06d-b17e97c545a9",
             "Value": {
                 "id": "72a182c6-ef4a-45de-90fd-4d0f0d5da7b0",
                 "resourcePath": "sprites\\spr_player_1_run\\spr_player_1_run.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "18968f60-61a3-45b9-94b2-3338e7ecea34",
+            "Value": {
+                "id": "49b5d972-4b5e-4f63-8fff-f0ba834d1dcf",
+                "resourcePath": "sprites\\spr_gm\\spr_gm.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1bf9dc6e-e4bf-4fdc-a43d-bad90de68b41",
+            "Value": {
+                "id": "0eeb7e36-6944-401b-be65-e11faef53389",
+                "resourcePath": "objects\\GameManager\\GameManager.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -60,6 +84,14 @@
                 "id": "d144d1bd-c849-47fe-ad56-050f5a5881ea",
                 "resourcePath": "views\\2bd59ade-9d2c-4016-9a90-1f2b2efb17e0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "362ee049-4ebb-453d-ae47-28a7720b66f8",
+            "Value": {
+                "id": "808ec8ff-7fa8-4864-89a6-329c015438cc",
+                "resourcePath": "sprites\\spr_coin\\spr_coin.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -127,6 +159,14 @@
             }
         },
         {
+            "Key": "71fce930-c4b9-4a83-b49c-eb1779cf2b69",
+            "Value": {
+                "id": "2c19f651-0325-4048-9ff2-b0eb686fe827",
+                "resourcePath": "fonts\\fnt_default\\fnt_default.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "7d5a7196-a7bb-4a01-8f91-ef6025542706",
             "Value": {
                 "id": "18a7f216-f571-4056-a88f-dcf2ebf5166c",
@@ -148,6 +188,14 @@
                 "id": "15c8ecb3-8d47-4f56-9ad3-b7d3fa2c8917",
                 "resourcePath": "views\\9598b52b-5e59-47b7-946a-5c437c0bb8e1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a2015aa1-1f3a-4857-ae7c-61bc693744b8",
+            "Value": {
+                "id": "66a41f97-ef16-4707-8a69-c199ab46e345",
+                "resourcePath": "objects\\obj_stock\\obj_stock.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -239,6 +287,14 @@
             }
         },
         {
+            "Key": "f0f9e19a-b2b4-4ea1-8626-a4b68b54182e",
+            "Value": {
+                "id": "6924bd11-ba39-4b54-be26-25f7363b493e",
+                "resourcePath": "objects\\obj_coin\\obj_coin.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "f6824e9f-c21a-4899-809e-4bced8f82736",
@@ -252,6 +308,14 @@
                 "id": "aeb6b9ce-bde7-4536-a18e-cca34f4c2a6c",
                 "resourcePath": "views\\f6cb7c06-2d69-4431-a832-72a21760cfa2.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fbc91786-f3ed-4f5d-a804-90fc353580eb",
+            "Value": {
+                "id": "bc85fd54-c42c-4294-ae42-5d8c9d1ecaa2",
+                "resourcePath": "sprites\\spr_stock\\spr_stock.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
