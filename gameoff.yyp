@@ -31,14 +31,6 @@
     },
     "resources": [
         {
-            "Key": "05d4cbe4-0ca6-47ae-b9e3-59ac823947f0",
-            "Value": {
-                "id": "d14330b6-b642-45c9-b942-716e67d8611f",
-                "resourcePath": "objects\\UIManager\\UIManager.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "14707931-6c80-4109-a06d-b17e97c545a9",
             "Value": {
                 "id": "72a182c6-ef4a-45de-90fd-4d0f0d5da7b0",
@@ -68,6 +60,14 @@
                 "id": "4ab9c34a-6c3a-4e07-a8a8-a8170c359ebb",
                 "resourcePath": "tilesets\\tileset_level\\tileset_level.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "2622b37b-b6ab-4a1d-a570-824f5e33d1d3",
+            "Value": {
+                "id": "85c6cdd9-83db-436a-b2ba-f1a672012b8a",
+                "resourcePath": "objects\\obj_item\\obj_item.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -178,7 +178,7 @@
             "Key": "94e8e8ef-bf43-468f-b77c-5cbff95e2f80",
             "Value": {
                 "id": "67b7b893-b5af-4126-9b91-a4ac1be466ec",
-                "resourcePath": "objects\\obj_player_1\\obj_player_1.yy",
+                "resourcePath": "objects\\obj_player\\obj_player.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -279,11 +279,35 @@
             }
         },
         {
+            "Key": "e57b62f8-36fc-4a13-a974-8810f290ceff",
+            "Value": {
+                "id": "02ddf3ac-809a-4b79-91ae-402d6c65f40e",
+                "resourcePath": "sprites\\spr_sword\\spr_sword.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e802283f-5e66-48cb-a129-fc94440ecad2",
+            "Value": {
+                "id": "7f89dd59-d9c9-4ece-ae4d-301e756581c9",
+                "resourcePath": "views\\e802283f-5e66-48cb-a129-fc94440ecad2.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "ed04ef5d-3916-45ad-b922-3d091a9446d2",
             "Value": {
                 "id": "b3db9733-7385-4796-bd88-2373649dfab1",
                 "resourcePath": "views\\ed04ef5d-3916-45ad-b922-3d091a9446d2.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "edcb3223-09d7-4a6a-9c83-7c571cc11b60",
+            "Value": {
+                "id": "40ac1fb1-aeba-406e-8316-d10066ad5fb0",
+                "resourcePath": "objects\\obj_sword\\obj_sword.yy",
+                "resourceType": "GMObject"
             }
         },
         {

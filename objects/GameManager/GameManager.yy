@@ -5,16 +5,6 @@
     "name": "GameManager",
     "eventList": [
         {
-            "id": "d3a5802e-30d1-4220-9dd7-c0e9fb520cc5",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "1bf9dc6e-e4bf-4fdc-a43d-bad90de68b41"
-        },
-        {
             "id": "af2e92fc-ddfa-419a-baea-017b9a8cb346",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -22,6 +12,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
+            "m_owner": "1bf9dc6e-e4bf-4fdc-a43d-bad90de68b41"
+        },
+        {
+            "id": "5f7359a2-765f-427d-af48-b553a8e3be1e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
             "m_owner": "1bf9dc6e-e4bf-4fdc-a43d-bad90de68b41"
         }
     ],

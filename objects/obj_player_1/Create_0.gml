@@ -1,1 +1,0 @@
-holding_coin = false;
