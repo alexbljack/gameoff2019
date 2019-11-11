@@ -1,3 +1,5 @@
+randomize();
+
 global.COINS = 0;
 
 p1_x = room_width * 0.2;

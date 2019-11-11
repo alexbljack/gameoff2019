@@ -1,0 +1,1 @@
+move_towards_point(to_follow.x, to_follow.y, 0.5);

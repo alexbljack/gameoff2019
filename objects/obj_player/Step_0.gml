@@ -29,7 +29,6 @@ if (mhor != 0) {
 	image_xscale = mhor;
 }
 
-
 // Handle item pickup
 var obj = instance_place(x, y, obj_item);
 if obj != noone and obj.holding_obj == noone {
@@ -40,7 +39,6 @@ if obj != noone and obj.holding_obj == noone {
 	obj.holding_obj = id;
 	item = obj.id;
 }
-
 
 // Handle coin drop
 var stock = instance_place(x, y, obj_stock);
@@ -55,3 +53,12 @@ if stock != noone and item != noone {
 	}
 }
 
+// Handle enemy collision
+var enemy = instance_place(x, y, obj_enemy);
+if enemy != noone and item != noone {
+	if object_get_name(item.object_index) == "obj_sword" {
+		instance_destroy(item);
+		item = noone;
+		instance_destroy(enemy);
+	}
+}
