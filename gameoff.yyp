@@ -55,19 +55,19 @@
             }
         },
         {
+            "Key": "2075fbcb-9960-4e6d-860f-fc0624ba4228",
+            "Value": {
+                "id": "b7731e99-1025-4712-a331-7e0b159a972d",
+                "resourcePath": "objects\\obj_floor\\obj_floor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "243a28a4-f55e-48c9-971e-d6f9e44a8b9f",
             "Value": {
                 "id": "4ab9c34a-6c3a-4e07-a8a8-a8170c359ebb",
                 "resourcePath": "tilesets\\tileset_level\\tileset_level.yy",
                 "resourceType": "GMTileSet"
-            }
-        },
-        {
-            "Key": "2622b37b-b6ab-4a1d-a570-824f5e33d1d3",
-            "Value": {
-                "id": "85c6cdd9-83db-436a-b2ba-f1a672012b8a",
-                "resourcePath": "objects\\obj_item\\obj_item.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "7120c3a3-b7c7-4349-9ba4-3a8717d0a810",
+            "Value": {
+                "id": "2a33e354-adf5-40e2-a84e-ac920abd5689",
+                "resourcePath": "sprites\\spr_floor\\spr_floor.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "71fce930-c4b9-4a83-b49c-eb1779cf2b69",
             "Value": {
                 "id": "2c19f651-0325-4048-9ff2-b0eb686fe827",
@@ -188,14 +196,6 @@
                 "id": "15c8ecb3-8d47-4f56-9ad3-b7d3fa2c8917",
                 "resourcePath": "views\\9598b52b-5e59-47b7-946a-5c437c0bb8e1.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "a2015aa1-1f3a-4857-ae7c-61bc693744b8",
-            "Value": {
-                "id": "66a41f97-ef16-4707-8a69-c199ab46e345",
-                "resourcePath": "objects\\obj_stock\\obj_stock.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -295,11 +295,11 @@
             }
         },
         {
-            "Key": "e802283f-5e66-48cb-a129-fc94440ecad2",
+            "Key": "e7c0236f-64ad-4a8f-b474-7fefa946fd51",
             "Value": {
-                "id": "7f89dd59-d9c9-4ece-ae4d-301e756581c9",
-                "resourcePath": "views\\e802283f-5e66-48cb-a129-fc94440ecad2.yy",
-                "resourceType": "GMFolder"
+                "id": "16d637ca-bbde-40dc-a23d-6b10c674856b",
+                "resourcePath": "tilesets\\level\\level.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -311,19 +311,11 @@
             }
         },
         {
-            "Key": "edcb3223-09d7-4a6a-9c83-7c571cc11b60",
+            "Key": "ed1600c9-6fc0-4be1-92f9-edd783a15c18",
             "Value": {
-                "id": "40ac1fb1-aeba-406e-8316-d10066ad5fb0",
-                "resourcePath": "objects\\obj_sword\\obj_sword.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "f0f9e19a-b2b4-4ea1-8626-a4b68b54182e",
-            "Value": {
-                "id": "6924bd11-ba39-4b54-be26-25f7363b493e",
-                "resourcePath": "objects\\obj_coin\\obj_coin.yy",
-                "resourceType": "GMObject"
+                "id": "2bdde1cb-9ce6-4f8f-a0e5-cb2c62bd1099",
+                "resourcePath": "sprites\\sprite9\\sprite9.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
