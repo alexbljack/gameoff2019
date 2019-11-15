@@ -9,3 +9,5 @@ dash_timer = room_speed * dash_cooldown;
 
 started_falling = false;
 is_falling = false;
+
+bouncing = false;

@@ -17,3 +17,8 @@ if (not is_falling) {
 
 // Debug
 draw_line(x, y, mouse_x, mouse_y);
+
+if (global.DEBUG) {
+	mask_index = sprite_index;
+	draw_sprite_ext(mask_index,0,x,y,1,1,0,c_black,0.5);
+}

@@ -89,7 +89,36 @@
     "physicsRestitution": 0.1,
     "physicsSensor": false,
     "physicsShape": 1,
-    "physicsShapePoints": null,
+    "physicsShapePoints": [
+        {
+            "id": "308d2e25-4701-44e6-8bfb-9f811d4ed0e2",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "id": "b6b35bed-60c7-4e2f-a5cb-abce5f5f5b59",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 15,
+            "y": 0
+        },
+        {
+            "id": "3b5d5e9b-bae0-415d-9210-21fed1f4cd52",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 15,
+            "y": 20
+        },
+        {
+            "id": "8b538daa-e5c6-451a-9f34-24db887a2316",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 0,
+            "y": 20
+        }
+    ],
     "physicsStartAwake": true,
     "properties": [
         {
@@ -144,7 +173,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1",
+            "value": "0.7",
             "varName": "dash_cooldown",
             "varType": 0
         },

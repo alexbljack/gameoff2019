@@ -8,6 +8,24 @@ if is_falling {
     image_yscale = image_xscale;
 }
 
+
+var enemy = instance_place(x, y, obj_enemy);
+if (enemy and not bouncing) {
+	speed = 4;
+	direction = point_direction(enemy.x, enemy.y, x, y);
+	bouncing = true;
+}
+
+
+if (bouncing) {
+	if (speed > 0) {
+		speed -= 0.12;
+	} else {
+		bouncing = false;
+		speed = 0;
+	}
+}
+
 // Process input
 var key_right = keyboard_check(k_right);
 var key_left =	keyboard_check(k_left);

@@ -1,1 +1,3 @@
 randomize();
+
+global.DEBUG = true;
