@@ -16,6 +16,11 @@ if (enemy and not bouncing) {
 	bouncing = true;
 }
 
+var on_floor = place_meeting(x, y, obj_floor);
+if (not on_floor) {
+	instance_destroy();
+}
+
 
 if (bouncing) {
 	if (speed > 0) {
@@ -24,8 +29,23 @@ if (bouncing) {
 		bouncing = false;
 		speed = 0;
 	}
-} else if (enemy_on_floor){
-	move_towards_point(to_follow.x, to_follow.y, 0.5);
-	} else {
-	instance_destroy();
+} else {
+	var fromX = x;
+	var fromY = y;
+	var toX = to_follow.x;
+	var toY = to_follow.y;
+	
+	for (var i = 0; i < instance_number(obj_enemy); ++i) {
+	    var e = instance_find(obj_enemy, i);
+		if (e.id != id and distance_to_point(e.x, e.y) < max_enemy_dist) {
+			fromX = e.x;
+			fromY = e.y;
+			toX = x;
+			toY = y;
+			break;
+		}
+	}
+	
+	direction = point_direction(fromX, fromY, toX, toY);
+	speed = 0.5;
 }
