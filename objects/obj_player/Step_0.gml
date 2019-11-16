@@ -49,8 +49,10 @@ if (not dashing) {
 	} else {
 		sprite_index = sprite_idle;
 	}
-	if (mhor != 0) {
-		image_xscale = mhor;
+	// Change sprite direction if needed
+	var diff = sign(mouse_x - x);
+	if (diff != 0) {
+		image_xscale = diff;
 	}
 }
 
@@ -80,10 +82,4 @@ if (dash_released and not dashing and not dash_cooldown) {
 	show_debug_message("Power: " + string(dash_power) + " Speed: " + string(dash_speed));
 	speed = dash_speed;
 	move_towards_point(mouse_x, mouse_y, dash_speed);
-
-	// Change sprite direction if needed
-	var diff = sign(mouse_x - x);
-	if (diff != 0) {
-		image_xscale = diff;
-	}
 }

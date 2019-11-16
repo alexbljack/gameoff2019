@@ -14,3 +14,6 @@ if (global.DEBUG) {
 	mask_index = sprite_index;
 	draw_sprite_ext(mask_index,0,x,y,1,1,0,c_black,0.5);
 }
+
+var sword_dir = point_direction(x, y, mouse_x, mouse_y) - 90;
+draw_sprite_ext(spr_sword, 0, x, y + 4, 0.7, 0.7, sword_dir, c_white, 1);
