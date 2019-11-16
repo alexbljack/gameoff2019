@@ -1,2 +1,1 @@
-/// @description Dash timer
-can_dash = true;
+/// @description Dash cooldown

@@ -1,9 +1,8 @@
 var player = instance_place(x, y, obj_player);
 if  (player and player.dashing) {
-	speed = player.speed;
+	speed = player.speed / 4;
 	direction = point_direction(player.x, player.y, x, y);
 	bouncing = true;
-
 	player.dashing = false;
 	player.speed = 0;
 }
