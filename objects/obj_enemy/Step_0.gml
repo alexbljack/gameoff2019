@@ -9,6 +9,7 @@ if  (player and player.dashing) {
 
 
 var enemy = instance_place(x, y, obj_enemy);
+var enemy_on_floor = place_meeting(x, y, obj_floor);
 if (enemy and not bouncing) {
 	speed = enemy.speed;
 	direction = point_direction(enemy.x, enemy.y, x, y);
