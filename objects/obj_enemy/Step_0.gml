@@ -15,6 +15,11 @@ if (enemy and not bouncing) {
 	bouncing = true;
 }
 
+var on_floor = place_meeting(x, y, obj_floor);
+if (not on_floor) {
+	instance_destroy();
+}
+
 
 if (bouncing) {
 	if (speed > 0) {
