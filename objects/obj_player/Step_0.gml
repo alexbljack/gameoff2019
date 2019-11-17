@@ -27,8 +27,13 @@ var mver = key_down - key_up;
 var on_floor = place_meeting(x, y, obj_floor);
 
 if (not on_floor and not recovering) {
-	alarm[2] = room_speed * 1;
+	hp -= 1
+	alarm[2] = room_speed;
 	recovering = true;
+		if (hp <= 0){
+			alarm[2] = room_speed;
+			instance_deactivate_object(obj_player)
+		}
 }
 
 // Apply movement
