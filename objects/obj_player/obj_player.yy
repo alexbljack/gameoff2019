@@ -200,6 +200,20 @@
             "value": "150",
             "varName": "dash_power_speed",
             "varType": 0
+        },
+        {
+            "id": "a44bea0a-1e1c-4d87-9fc6-172242c253ea",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "3",
+            "varName": "max_hp",
+            "varType": 1
         }
     ],
     "solid": false,
