@@ -28,7 +28,7 @@ var on_floor = place_meeting(x, y, obj_floor);
 
 if (not on_floor and not recovering) {
 	hp -= 1
-	alarm[2] = room_speed;
+	alarm[2] = room_speed * 2;
 	recovering = true;
 		if (hp <= 0){
 			alarm[2] = room_speed;
