@@ -7,7 +7,6 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        "c4cc7b50-baa4-42a3-a6f6-53b32de08c2b",
         "a0c82abd-25f7-4935-bc9b-0f5e3dcc98ce",
         "63f637e0-07cc-47a2-a0b5-f37568c6195a",
         "3512f6bf-f7f8-4454-bfb7-f47722ead2e4",
@@ -240,17 +239,21 @@
         "29dd2b53-5b53-4cc8-965c-22a14c59549d",
         "e199863d-2b23-476e-9b4b-7bf8471049fe",
         "d676e7a9-48d5-4794-8ab9-13315d2c037d",
-        "6f7c8d9a-9564-488d-a56b-2f452f182632"
+        "6f7c8d9a-9564-488d-a56b-2f452f182632",
+        "4732cd36-2424-4979-9d13-4e0c6b15be51",
+        "c4cc7b50-baa4-42a3-a6f6-53b32de08c2b",
+        "46f88ef8-92f5-4af7-a1a0-7b67ef1bb240",
+        "bf49bcd4-6f9e-4a83-ad12-9b895d75c24e"
     ],
     "IsDnD": false,
     "layers": [
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Enemy",
-            "id": "73e09e90-24e2-4678-857a-ad136f36d8b0",
+            "name": "Instances",
+            "id": "8e1aded2-8438-4120-b93e-8797aa4f881d",
             "depth": 0,
-            "grid_x": 32,
-            "grid_y": 32,
+            "grid_x": 16,
+            "grid_y": 16,
             "hierarchyFrozen": false,
             "hierarchyVisible": true,
             "inheritLayerDepth": false,
@@ -258,7 +261,8 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-
+{"name": "inst_1F01685B","id": "c4cc7b50-baa4-42a3-a6f6-53b32de08c2b","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_1F01685B","objId": "1bf9dc6e-e4bf-4fdc-a43d-bad90de68b41","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 425,"y": -2},
+{"name": "inst_3C9A5481","id": "6f7c8d9a-9564-488d-a56b-2f452f182632","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3C9A5481","objId": "94e8e8ef-bf43-468f-b77c-5cbff95e2f80","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 80,"y": 176}
             ],
             "layers": [
 
@@ -272,11 +276,11 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Instances",
-            "id": "8e1aded2-8438-4120-b93e-8797aa4f881d",
+            "name": "Enemy",
+            "id": "73e09e90-24e2-4678-857a-ad136f36d8b0",
             "depth": 100,
-            "grid_x": 16,
-            "grid_y": 16,
+            "grid_x": 32,
+            "grid_y": 32,
             "hierarchyFrozen": false,
             "hierarchyVisible": true,
             "inheritLayerDepth": false,
@@ -284,8 +288,9 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_1F01685B","id": "c4cc7b50-baa4-42a3-a6f6-53b32de08c2b","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_1F01685B","objId": "1bf9dc6e-e4bf-4fdc-a43d-bad90de68b41","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 425,"y": -2},
-{"name": "inst_3C9A5481","id": "6f7c8d9a-9564-488d-a56b-2f452f182632","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3C9A5481","objId": "94e8e8ef-bf43-468f-b77c-5cbff95e2f80","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 80,"y": 176}
+{"name": "inst_7EFC03A8","id": "4732cd36-2424-4979-9d13-4e0c6b15be51","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_7EFC03A8.gml","creationCodeType": ".gml","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_7EFC03A8","objId": "1687e2bf-348e-41f1-ac13-063fdb55ae3c","properties": null,"rotation": 0,"scaleX": 6,"scaleY": 5,"mvc": "1.1","x": 48,"y": 64},
+{"name": "inst_419709FB","id": "46f88ef8-92f5-4af7-a1a0-7b67ef1bb240","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_419709FB.gml","creationCodeType": ".gml","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_419709FB","objId": "1687e2bf-348e-41f1-ac13-063fdb55ae3c","properties": null,"rotation": 0,"scaleX": 5.9375,"scaleY": 3,"mvc": "1.1","x": 224,"y": 32},
+{"name": "inst_1CE89A59","id": "bf49bcd4-6f9e-4a83-ad12-9b895d75c24e","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_1CE89A59.gml","creationCodeType": ".gml","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_1CE89A59","objId": "1687e2bf-348e-41f1-ac13-063fdb55ae3c","properties": null,"rotation": 0,"scaleX": 3.0625,"scaleY": 3.125,"mvc": "1.1","x": 142,"y": 204}
             ],
             "layers": [
 

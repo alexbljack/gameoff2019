@@ -13,5 +13,5 @@ if (alarm[0] <= 0 && count < 10)
 			y = irandom_range(0, room_height);
 		}
 	}
-	alarm[0] = 2 * room_speed;
+	alarm[0] = 2000 * room_speed;
 }
