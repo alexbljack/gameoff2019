@@ -18,3 +18,17 @@ if (global.DEBUG) {
 var sword_dir = point_direction(x, y, mouse_x, mouse_y) - 90;
 draw_sprite_ext(spr_spear, 0, x, y + 4, 0.7, 0.7, sword_dir, c_white, 1);
 
+if (global.dead){
+	with(instance_create_layer(128, 64, "Menu", obj_button_restart)){
+    image_xscale = 0.338;
+    image_yscale = 0.283;
+	}
+	
+	with(instance_create_layer(229, 146, "Menu", obj_button_exit)){
+    image_xscale = 0.338;
+    image_yscale = 0.283;
+	}
+	instance_deactivate_object(obj_player);
+	global.dead = false;
+}
+

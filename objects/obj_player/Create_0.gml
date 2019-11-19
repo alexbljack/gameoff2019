@@ -14,3 +14,5 @@ bouncing = false;
 
 dash_power = 0;
 hp = 3;
+
+global.dead = false;

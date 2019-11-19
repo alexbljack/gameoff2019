@@ -29,7 +29,7 @@ if (bouncing) {
 		speed = 0;
 	}
 } else {
-	if (instance_exists(obj_player)){
+	if (!global.dead){
 		var fromX = x;
 		var fromY = y;
 	

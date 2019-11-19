@@ -8,7 +8,8 @@
         "18968f60-61a3-45b9-94b2-3338e7ecea34",
         "7120c3a3-b7c7-4349-9ba4-3a8717d0a810",
         "66adcf92-1882-40f9-b9ee-3f9677e4f87e",
-        "040c6648-d97a-4807-8077-fd49815887d7"
+        "040c6648-d97a-4807-8077-fd49815887d7",
+        "de7ddb1f-cd00-4cad-9613-ede68b159a67"
     ],
     "filterType": "GMSprite",
     "folderName": "Service",
