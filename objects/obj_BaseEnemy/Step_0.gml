@@ -8,9 +8,8 @@ if  (player and player.dashing) {
 }
 
 
-var enemy = instance_place(x, y, obj_enemy);
-var enemy_on_floor = place_meeting(x, y, obj_floor);
-if (enemy and not bouncing) {
+var enemy = instance_place(x, y, obj_BaseEnemy);
+if (enemy and not bouncing and enemy.bouncing) {
 	speed = enemy.speed;
 	direction = point_direction(enemy.x, enemy.y, x, y);
 	bouncing = true;
@@ -37,8 +36,8 @@ if (bouncing) {
 		var toX = to_follow.x;
 		var toY = to_follow.y;
 	
-		for (var i = 0; i < instance_number(obj_enemy); ++i) {
-		    var e = instance_find(obj_enemy, i);
+		for (var i = 0; i < instance_number(obj_BaseEnemy); ++i) {
+		    var e = instance_find(obj_BaseEnemy, i);
 			if (e.id != id and distance_to_point(e.x, e.y) < max_enemy_dist) {
 				fromX = e.x;
 				fromY = e.y;
@@ -48,6 +47,8 @@ if (bouncing) {
 			}
 		}
 		direction = point_direction(fromX, fromY, toX, toY);
-		speed = 0.5;
+		speed = walk_speed;
 	}
 }
+
+image_xscale = sign(to_follow.x - x);

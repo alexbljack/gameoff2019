@@ -16,5 +16,5 @@ if (global.DEBUG) {
 }
 
 var sword_dir = point_direction(x, y, mouse_x, mouse_y) - 90;
-draw_sprite_ext(spr_sword, 0, x, y + 4, 0.7, 0.7, sword_dir, c_white, 1);
+draw_sprite_ext(spr_spear, 0, x, y + 4, 0.7, 0.7, sword_dir, c_white, 1);
 

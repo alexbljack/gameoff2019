@@ -1,8 +1,16 @@
-var enemy = instance_place(x, y, obj_enemy);
+var enemy = instance_place(x, y, obj_BaseEnemy);
 if (enemy and not bouncing and not dashing) {
 	speed = 4;
 	direction = point_direction(enemy.x, enemy.y, x, y);
 	bouncing = true;
+}
+
+var projectile = instance_place(x, y, obj_projectile);
+if (projectile and not bouncing and not dashing) {
+	speed = 3;
+	direction = point_direction(projectile.x, projectile.y, x, y);
+	bouncing = true;
+	instance_destroy(projectile);
 }
 
 
@@ -16,10 +24,10 @@ if (bouncing) {
 }
 
 // Process input
-var key_right = keyboard_check(k_right);
-var key_left =	keyboard_check(k_left);
-var key_up =	keyboard_check(k_up);
-var key_down =	keyboard_check(k_down);
+var key_right = keyboard_check(ord("D"));
+var key_left =	keyboard_check(ord("A"));
+var key_up =	keyboard_check(ord("W"));
+var key_down =	keyboard_check(ord("S"));
 
 var mhor = key_right - key_left;
 var mver = key_down - key_up;
