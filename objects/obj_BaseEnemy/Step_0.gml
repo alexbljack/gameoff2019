@@ -29,7 +29,7 @@ if (bouncing) {
 		speed = 0;
 	}
 } else {
-	if (!global.dead){
+	if (!global.dead && instance_exists(obj_player)){
 		var fromX = x;
 		var fromY = y;
 	
@@ -50,5 +50,6 @@ if (bouncing) {
 		speed = walk_speed;
 	}
 }
-
-image_xscale = sign(to_follow.x - x);
+if (!global.dead && instance_exists(obj_player)){
+	image_xscale = sign(to_follow.x - x);
+}
