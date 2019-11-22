@@ -34,7 +34,7 @@ var mver = key_down - key_up;
 
 var on_floor = place_meeting(x, y, obj_floor);
 
-if (not on_floor and not recovering) {
+if (not on_floor and not recovering and not dashing) {
 	hp -= 1
 	alarm[2] = room_speed * 2;
 	recovering = true;
