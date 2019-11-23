@@ -17,5 +17,6 @@ if (triggered){
 	str
 	+"\nwaves tottal: " +string(total_waves + 1)
 	+"\nwaves now: " + string(c_wave + 1)
+	+"\nScore: " +string(global.current_score)
 	)
 }
