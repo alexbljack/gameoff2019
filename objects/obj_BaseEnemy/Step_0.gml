@@ -15,7 +15,7 @@ if (enemy and not bouncing and enemy.bouncing) {
 	bouncing = true;
 }
 
-if (!place_meeting(x, y, obj_floor) and distance_to_object(obj_lava) < 10) {
+if (not place_meeting(x, y, obj_floor)) {
 	instance_destroy();
 	global.current_score++;
 }
@@ -46,10 +46,12 @@ if (bouncing) {
 				break;	
 			}
 		}
-		if (place_meeting(x, y + 1, obj_lava) or place_meeting(x, y - 1, obj_lava) or place_meeting(x + 1, y, obj_lava) or place_meeting(x - 1, y, obj_lava)){
-			mp_potential_step_object(obj_player.x, obj_player.y, walk_speed, obj_lava);
+		direction = point_direction(fromX, fromY, toX, toY);
+		var xf = x + lengthdir_x(20, direction);
+		var yf = y + lengthdir_y(20, direction);
+		if (!place_meeting(xf, yf, obj_floor)) {
+			speed = 0;
 		} else {
-			direction = point_direction(fromX, fromY, toX, toY);
 			speed = walk_speed;
 		}
 	}

@@ -34,7 +34,7 @@ var key_down =	keyboard_check(ord("S"));
 var mhor = key_right - key_left;
 var mver = key_down - key_up;
 
-var on_floor = not place_meeting(x, y, obj_lava);
+var on_floor = place_meeting(x, y, obj_floor);
 
 if (not on_floor and not recovering and not dashing) {
 	hp -= 1
