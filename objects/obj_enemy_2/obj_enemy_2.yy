@@ -42,6 +42,14 @@
             "objectId": "1c852d20-e341-49e0-90c4-a81e5c14dc31",
             "propertyId": "804e8a82-7d2b-4ef0-86a3-0c62fe19b8b5",
             "value": "0.2"
+        },
+        {
+            "id": "eb75ed1a-018d-4147-b2f4-9c968600e6d9",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "1c852d20-e341-49e0-90c4-a81e5c14dc31",
+            "propertyId": "00e3f41d-ea6e-48d6-8d19-0dff3b368a5e",
+            "value": "spr_enemy_2_death"
         }
     ],
     "parentObjectId": "1c852d20-e341-49e0-90c4-a81e5c14dc31",

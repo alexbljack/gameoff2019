@@ -103,6 +103,20 @@
             "value": "25",
             "varName": "bound_dist",
             "varType": 1
+        },
+        {
+            "id": "00e3f41d-ea6e-48d6-8d19-0dff3b368a5e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "death_spr",
+            "varType": 5
         }
     ],
     "solid": false,

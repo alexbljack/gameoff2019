@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "7429f9bc-bb22-4b6a-854d-58eb94ed23d6",
+            "Value": {
+                "id": "486e4fad-8eed-4452-9c04-e4b1c3007173",
+                "resourcePath": "sprites\\spr_enemy_2_death\\spr_enemy_2_death.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7d5a7196-a7bb-4a01-8f91-ef6025542706",
             "Value": {
                 "id": "18a7f216-f571-4056-a88f-dcf2ebf5166c",
@@ -412,6 +420,14 @@
                 "id": "15c8ecb3-8d47-4f56-9ad3-b7d3fa2c8917",
                 "resourcePath": "views\\9598b52b-5e59-47b7-946a-5c437c0bb8e1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "96817c8f-68f4-472a-a1f3-040bd10c64ff",
+            "Value": {
+                "id": "655edeec-baf5-4413-acf9-f62288b4f6d1",
+                "resourcePath": "sprites\\spr_enemy_1_death\\spr_enemy_1_death.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
