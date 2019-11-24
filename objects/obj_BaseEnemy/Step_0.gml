@@ -47,8 +47,8 @@ if (bouncing) {
 			}
 		}
 		direction = point_direction(fromX, fromY, toX, toY);
-		var xf = x + lengthdir_x(20, direction);
-		var yf = y + lengthdir_y(20, direction);
+		var xf = x + lengthdir_x(bound_dist, direction);
+		var yf = y + lengthdir_y(bound_dist, direction);
 		if (!place_meeting(xf, yf, obj_floor)) {
 			speed = 0;
 		} else {
