@@ -3,7 +3,7 @@
     "modelName": "GMSprite",
     "mvc": "1.12",
     "name": "spr_lava",
-    "For3D": true,
+    "For3D": false,
     "HTile": false,
     "VTile": false,
     "bbox_bottom": 15,
@@ -13,7 +13,7 @@
     "bboxmode": 1,
     "colkind": 1,
     "coltolerance": 11,
-    "edgeFiltering": true,
+    "edgeFiltering": false,
     "frames": [
         {
             "id": "010a3eec-3675-4e62-b2fd-b1feecffcad1",
@@ -116,7 +116,7 @@
             "blendMode": 0,
             "isLocked": false,
             "name": "default",
-            "opacity": 75,
+            "opacity": 92,
             "visible": true
         }
     ],
@@ -124,7 +124,7 @@
     "originLocked": false,
     "playbackSpeed": 4,
     "playbackSpeedType": 0,
-    "premultiplyAlpha": true,
+    "premultiplyAlpha": false,
     "sepmasks": false,
     "swatchColours": null,
     "swfPrecision": 2.525,

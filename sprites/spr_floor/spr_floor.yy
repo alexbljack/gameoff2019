@@ -50,7 +50,7 @@
             "blendMode": 0,
             "isLocked": false,
             "name": "default",
-            "opacity": 23,
+            "opacity": 60,
             "visible": true
         }
     ],

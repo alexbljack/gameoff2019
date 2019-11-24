@@ -7,10 +7,12 @@ if (enemy and not bouncing and not dashing) {
 
 var projectile = instance_place(x, y, obj_projectile);
 if (projectile and not bouncing and not dashing) {
-	speed = 3;
+	speed = 4;
 	direction = point_direction(projectile.x, projectile.y, x, y);
 	bouncing = true;
-	instance_destroy(projectile);
+	projectile.speed = 0;
+	projectile.sprite_index = spr_projectile_expl;
+	projectile.exploding = true;
 }
 
 
@@ -32,7 +34,7 @@ var key_down =	keyboard_check(ord("S"));
 var mhor = key_right - key_left;
 var mver = key_down - key_up;
 
-var on_floor = place_meeting(x, y, obj_floor);
+var on_floor = not place_meeting(x, y, obj_lava);
 
 if (not on_floor and not recovering and not dashing) {
 	hp -= 1
@@ -84,6 +86,10 @@ if (dash_cooldown) {
 		dash_cooldown = false;
 		dash_power = 0;
 	}
+}
+
+if (dashing) {
+	instance_create_layer(x, y, "Instances", obj_player_dash);
 }
 
 if (dash_released and not dashing and not dash_cooldown) {

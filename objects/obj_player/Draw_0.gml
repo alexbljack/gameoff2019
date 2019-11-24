@@ -7,7 +7,7 @@ var y2 = y - 17;
 
 var charge = dash_power / dash_distance * 100;
 
-draw_healthbar(x1, y1, x2, y2, charge, c_black, c_yellow, c_red, 0, true, true);
+draw_healthbar(x1, y1, x2, y2, charge, c_aqua, c_yellow, c_red, 0, false, true);
 
 if (global.DEBUG) {
 	draw_line(x, y, mouse_x, mouse_y);
