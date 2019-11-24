@@ -1,28 +1,28 @@
 {
-    "id": "6bcb1f6b-e1d6-4752-98af-b29c5ff39dbe",
+    "id": "bc3637f6-6b18-40c5-81a7-d5bfdf5c5185",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_projectile",
+    "name": "obj_BaseDashShadow",
     "eventList": [
         {
-            "id": "9ee23b22-ed44-4746-8106-dc4571cd3945",
+            "id": "53929fd9-5955-4fc5-893a-9c152ddb334d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "6bcb1f6b-e1d6-4752-98af-b29c5ff39dbe"
+            "m_owner": "bc3637f6-6b18-40c5-81a7-d5bfdf5c5185"
         },
         {
-            "id": "ea5612ba-8270-43d9-b0b3-79f848c10c7e",
+            "id": "58e1983a-df13-4ea1-a4a9-db087de03579",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "6bcb1f6b-e1d6-4752-98af-b29c5ff39dbe"
+            "m_owner": "bc3637f6-6b18-40c5-81a7-d5bfdf5c5185"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,7 +43,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "42c767f3-3016-419d-bc56-ec08ff704ace",
+            "id": "c64ba950-67f5-4e07-9e6d-bd10b11f6a21",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -52,26 +52,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "2",
-            "varName": "start_speed",
-            "varType": 0
-        },
-        {
-            "id": "6d4bb6dd-2204-4d93-942e-5dab28d624e4",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "5",
-            "varName": "bounce_speed",
-            "varType": 0
+            "value": "0",
+            "varName": "sprite",
+            "varType": 5
         }
     ],
     "solid": false,
-    "spriteId": "d43d5a41-579d-4d8b-a993-e1bf5af4eb11",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

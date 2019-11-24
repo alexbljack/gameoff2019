@@ -367,6 +367,14 @@
             }
         },
         {
+            "Key": "8aafb461-561e-47a6-bd41-2b3ae649e703",
+            "Value": {
+                "id": "593ba9ab-2277-47fb-bc7f-b4415f0dd431",
+                "resourcePath": "sprites\\spr_enemy_3\\spr_enemy_3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8fb89911-40ba-4392-b1e1-48f45139a9fb",
             "Value": {
                 "id": "6ac8ff43-812b-46fb-85b9-f792232c4332",
@@ -463,6 +471,14 @@
             }
         },
         {
+            "Key": "a9feb3c1-600e-4670-b211-d3f12eae1037",
+            "Value": {
+                "id": "89868365-c5bf-453f-ba72-f332c9718ab7",
+                "resourcePath": "sprites\\spr_enemy_3_death\\spr_enemy_3_death.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ac9a208b-12ea-4322-a9b8-a02f463b3f38",
             "Value": {
                 "id": "a98cc1c5-bd36-4b20-adf3-356ac423d6e5",
@@ -507,6 +523,22 @@
             "Value": {
                 "id": "52f60489-833f-41a1-8497-0ecc1304286e",
                 "resourcePath": "objects\\obj_enemy\\obj_enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b4e06531-bb62-408e-832b-ae64479ee3a3",
+            "Value": {
+                "id": "143c7b0f-5291-4f9a-abff-d503e7dc173d",
+                "resourcePath": "objects\\obj_enemy_3\\obj_enemy_3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bc3637f6-6b18-40c5-81a7-d5bfdf5c5185",
+            "Value": {
+                "id": "04ca8668-0781-4797-8ebd-4e98505fc29c",
+                "resourcePath": "objects\\obj_BaseDashShadow\\obj_BaseDashShadow.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -620,6 +652,14 @@
                 "id": "f6824e9f-c21a-4899-809e-4bced8f82736",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f68b2f4f-3d44-482e-bcee-81fa966a5c7f",
+            "Value": {
+                "id": "c74bdf96-1394-499e-8040-bca689676645",
+                "resourcePath": "objects\\obj_enemy_3_dash\\obj_enemy_3_dash.yy",
+                "resourceType": "GMObject"
             }
         },
         {

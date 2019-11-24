@@ -7,7 +7,7 @@ if (enemy and not bouncing and not dashing) {
 
 var projectile = instance_place(x, y, obj_projectile);
 if (projectile and not bouncing and not dashing) {
-	speed = 4;
+	speed = projectile.bounce_speed;
 	direction = point_direction(projectile.x, projectile.y, x, y);
 	bouncing = true;
 	projectile.speed = 0;
@@ -36,17 +36,17 @@ var mver = key_down - key_up;
 
 var on_floor = place_meeting(x, y, obj_floor);
 
-if (not on_floor and not recovering and not dashing) {
-	hp -= 1
+if (not on_floor and not recovering and not dashing and not bouncing) {
 	alarm[2] = room_speed * 2;
 	recovering = true;
-		if (hp <= 0){
-			global.dead = true;
+	hp -= 1;
+	if (hp <= 0) {
+		global.dead = true;
 	}
 }
 
 // Apply movement
-if (not dashing) {
+if (not dashing and not bouncing) {
 	// Calculate movement normalized to FPS
 	var movement = deltaTime(run_speed);
 
@@ -89,7 +89,8 @@ if (dash_cooldown) {
 }
 
 if (dashing) {
-	instance_create_layer(x, y, "Instances", obj_player_dash);
+	var shadow = instance_create_layer(x, y, "Instances", obj_player_dash);
+	shadow.image_xscale = image_xscale;
 }
 
 if (dash_released and not dashing and not dash_cooldown) {
