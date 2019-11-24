@@ -11,6 +11,7 @@ dashing = false;
 dash_cooldown = false;
 recovering = false;
 bouncing = false;
+boosted = false;
 
 dash_power = 0;
 hp = 3;
