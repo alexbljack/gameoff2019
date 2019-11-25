@@ -1,4 +1,4 @@
-if (dash_triggered) {
+if (dash_triggered and instance_exists(obj_player)) {
 	dash_triggered = false;
 	dashing = true;
 	var player = instance_nearest(x, y, obj_player);

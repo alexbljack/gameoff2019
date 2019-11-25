@@ -51,13 +51,13 @@ if (falling) {
 					fromY = e.y;
 					toX = x;
 					toY = y;
-					break;	
+					break;
 				}
 			}
 			direction = point_direction(fromX, fromY, toX, toY);
 			var xf = x + lengthdir_x(bound_dist, direction);
 			var yf = y + lengthdir_y(bound_dist, direction);
-			if (!place_meeting(xf, yf, obj_floor)) {
+			if (!place_meeting(xf, yf, obj_floor) or place_meeting(xf, yf, obj_box)) {
 				speed = 0;
 			} else {
 				speed = walk_speed;

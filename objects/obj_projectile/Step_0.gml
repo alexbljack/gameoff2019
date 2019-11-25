@@ -3,3 +3,7 @@ if (exploding) {
 		instance_destroy();
 	}
 }
+
+if (place_meeting(x, y, obj_box)){
+	instance_destroy();
+}
