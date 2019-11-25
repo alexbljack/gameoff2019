@@ -124,9 +124,9 @@
             32,
             33,
             25,
-            32,
-            33,
-            24,
+            25,
+            25,
+            25,
             26,
             26,
             26,
@@ -152,13 +152,13 @@
             31,
             31,
             32,
-            33,
             24,
             25,
             33,
-            24,
-            25,
-            32,
+            33,
+            33,
+            33,
+            33,
             34,
             34,
             34,
@@ -198,9 +198,21 @@
                 33
             ],
             "name": "lava_anim"
+        },
+        {
+            "id": "bda1eb47-35f4-4cf4-8526-72da71e3d4f8",
+            "modelName": "GMTileAnimation",
+            "mvc": "1.0",
+            "frames": [
+                32,
+                24,
+                25,
+                33
+            ],
+            "name": "lava_anim_2"
         }
     ],
-    "tile_animation_speed": 2,
+    "tile_animation_speed": 3,
     "tile_count": 40,
     "tileheight": 32,
     "tilehsep": 0,
