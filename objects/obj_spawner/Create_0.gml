@@ -7,6 +7,7 @@ triggered = false;
 timer = 0;
 c_wave = 0;
 global.current_score = 0;
+game_time = 0;
 
 waves = ds_list_create();
 enemy_count = 5;
