@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "4591bb69-f101-44b5-bd2f-c994ab58a82d",
+            "Value": {
+                "id": "b6a06ad0-83fc-4dfc-b646-c167387ee906",
+                "resourcePath": "objects\\obj_death_fire\\obj_death_fire.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "462ed882-6d0b-4574-b26d-49381eda1222",
             "Value": {
                 "id": "275112eb-879b-4c6b-940f-a60aff6fc136",
@@ -364,6 +372,14 @@
                 "id": "2c19f651-0325-4048-9ff2-b0eb686fe827",
                 "resourcePath": "fonts\\fnt_default\\fnt_default.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "74202e22-0695-48db-bf78-1530517210c3",
+            "Value": {
+                "id": "0ff449b6-9d38-432a-99a4-3e5d975e55df",
+                "resourcePath": "sprites\\death_fire\\death_fire.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
