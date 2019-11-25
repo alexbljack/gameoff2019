@@ -4,6 +4,7 @@ if (falling) {
 		image_xscale -= sign(image_xscale) * 0.02;
 		image_yscale -= 0.02;
 	} else {
+		instance_create_layer(x, y, "Instances", obj_death_fire);
 		instance_destroy();
 		global.current_score += 1;
 	}
