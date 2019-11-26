@@ -54,9 +54,52 @@ if (not dashing and not bouncing) {
 	if (mhor != 0) and (mver != 0) {
 		movement = movement * (sqrt(2) / 2);
 	}
-	
-	x += mhor * movement;
-	y += mver * movement;
+	#region
+	if (!place_free(x + 1, y)){
+			if (key_left == 1) {
+				x -= deltaTime(run_speed);
+			}
+			if (key_down == 1) {
+				y += deltaTime(run_speed);
+			}
+			if (key_up == 1) {
+				y -= deltaTime(run_speed);
+			}
+	} else if (!place_free(x, y + 1)){
+			if (key_right == 1) {
+				x += deltaTime(run_speed);
+			}
+			if (key_left == 1) {
+				x -= deltaTime(run_speed);
+			}
+			if (key_up == 1) {
+				y -= deltaTime(run_speed);
+			}
+	} else if (!place_free(x, y - 2)){
+			if (key_right == 1) {
+				x += deltaTime(run_speed);
+			}
+			if (key_left == 1) {
+				x -= deltaTime(run_speed);
+			}
+			if (key_down == 1) {
+				y += deltaTime(run_speed);
+			}
+	} else if (!place_free(x - 1, y)){
+			if (key_right == 1) {
+				x += deltaTime(run_speed);
+			}
+			if (key_up == 1) {
+				y -= deltaTime(run_speed);
+			}
+			if (key_down == 1) {
+				y += deltaTime(run_speed);
+			}
+	} else {
+		x += mhor * movement;
+		y += mver * movement;
+	}
+	#endregion
 	
 	if (abs(mhor) + abs(mver)) > 0 {
 		sprite_index = sprite_run;

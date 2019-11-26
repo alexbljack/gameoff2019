@@ -15,5 +15,6 @@ boosted = false;
 
 dash_power = 0;
 hp = 3;
+collision_speed = 5;
 
 global.dead = false;
