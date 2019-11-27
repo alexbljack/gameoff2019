@@ -1,74 +1,64 @@
 {
-    "id": "1bf9dc6e-e4bf-4fdc-a43d-bad90de68b41",
+    "id": "289b7e20-f689-44b7-94ce-8dc750b1dc48",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "GameManager",
+    "name": "obj_name_textbox",
     "eventList": [
         {
-            "id": "af2e92fc-ddfa-419a-baea-017b9a8cb346",
+            "id": "0265588a-9d1e-466a-8a51-920b8e30d7a8",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "1bf9dc6e-e4bf-4fdc-a43d-bad90de68b41"
+            "m_owner": "289b7e20-f689-44b7-94ce-8dc750b1dc48"
         },
         {
-            "id": "2fb64d0c-edcb-4aa0-b1eb-1a0b7a1654c7",
+            "id": "ce6d85e8-8ffb-48b0-a935-f40d47668285",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "1bf9dc6e-e4bf-4fdc-a43d-bad90de68b41"
+            "eventtype": 3,
+            "m_owner": "289b7e20-f689-44b7-94ce-8dc750b1dc48"
         },
         {
-            "id": "12a97db7-ee21-4788-8179-2442dc894b22",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 18,
-            "eventtype": 9,
-            "m_owner": "1bf9dc6e-e4bf-4fdc-a43d-bad90de68b41"
-        },
-        {
-            "id": "ab2ff3d6-1a90-4abf-8865-6968c944a6cf",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 113,
-            "eventtype": 9,
-            "m_owner": "1bf9dc6e-e4bf-4fdc-a43d-bad90de68b41"
-        },
-        {
-            "id": "b21eada7-a752-41b6-bc34-617b7f85b8af",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 1,
-            "eventtype": 2,
-            "m_owner": "1bf9dc6e-e4bf-4fdc-a43d-bad90de68b41"
-        },
-        {
-            "id": "8669dccf-0d6e-4a75-831c-e0d1d4013a27",
+            "id": "10e14244-9891-4545-a62a-613cd276b2d2",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 8,
-            "m_owner": "1bf9dc6e-e4bf-4fdc-a43d-bad90de68b41"
+            "m_owner": "289b7e20-f689-44b7-94ce-8dc750b1dc48"
+        },
+        {
+            "id": "6833a651-8cf9-4d7b-832b-bb1d916bfbac",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 13,
+            "eventtype": 9,
+            "m_owner": "289b7e20-f689-44b7-94ce-8dc750b1dc48"
+        },
+        {
+            "id": "a6793a91-1f66-420b-8ea3-f7939953f775",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "289b7e20-f689-44b7-94ce-8dc750b1dc48"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
-    "persistent": true,
+    "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
@@ -83,6 +73,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "18968f60-61a3-45b9-94b2-3338e7ecea34",
+    "spriteId": "8ff3e604-71e7-480f-906d-16cefd468f38",
     "visible": true
 }
