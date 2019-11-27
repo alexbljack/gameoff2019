@@ -147,6 +147,20 @@
             "value": "0",
             "varName": "death_spr",
             "varType": 5
+        },
+        {
+            "id": "7deb8c1b-55e4-4d40-8b61-15397cd1539f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "points_for_kill",
+            "varType": 1
         }
     ],
     "solid": false,

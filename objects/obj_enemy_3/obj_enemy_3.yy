@@ -70,6 +70,14 @@
             "objectId": "1c852d20-e341-49e0-90c4-a81e5c14dc31",
             "propertyId": "00e3f41d-ea6e-48d6-8d19-0dff3b368a5e",
             "value": "spr_enemy_3_death"
+        },
+        {
+            "id": "91d4a33c-db77-4695-927c-ea932cac18a1",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "1c852d20-e341-49e0-90c4-a81e5c14dc31",
+            "propertyId": "7deb8c1b-55e4-4d40-8b61-15397cd1539f",
+            "value": "300"
         }
     ],
     "parentObjectId": "1c852d20-e341-49e0-90c4-a81e5c14dc31",

@@ -42,6 +42,7 @@ if (not on_floor and not recovering and not dashing and not bouncing and not boo
 	hp -= 1;
 	if (hp <= 0) {
 		global.dead = true;
+		
 	}
 }
 

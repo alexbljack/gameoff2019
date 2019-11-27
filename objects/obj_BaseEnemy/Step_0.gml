@@ -6,7 +6,7 @@ if (falling) {
 	} else {
 		instance_create_layer(x, y, "Instances", obj_death_fire);
 		instance_destroy();
-		global.current_score += 1;
+		score += points_for_kill;
 	}
 } else {
 	var player = instance_place(x, y, obj_player);
