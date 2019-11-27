@@ -39,33 +39,16 @@ if (falling) {
 		}
 	} else {
 		if (!global.dead && instance_exists(obj_player)){
-			var fromX = x;
-			var fromY = y;
-	
-			var toX = to_follow.x;
-			var toY = to_follow.y;
-	
-			for (var i = 0; i < instance_number(obj_BaseEnemy); ++i) {
-			    var e = instance_find(obj_BaseEnemy, i);
-				if (e.id != id and distance_to_point(e.x, e.y) < max_enemy_dist) {
-					fromX = e.x;
-					fromY = e.y;
-					toX = x;
-					toY = y;
-					break;
-				}
-			}
-			direction = point_direction(fromX, fromY, toX, toY);
-			var xf = x + lengthdir_x(bound_dist, direction);
-			var yf = y + lengthdir_y(bound_dist, direction);
-			if (!place_meeting(xf, yf, obj_floor) or place_meeting(xf, yf, obj_box)) {
-				speed = 0;
-			} else {
-				speed = walk_speed;
-			}
+			mp_potential_step(obj_player.x, obj_player.y, walk_speed, false)
 		}
 	}
 	if (!global.dead && instance_exists(obj_player)){
 		image_xscale = sign(to_follow.x - x);
 	}
+}
+
+if (collision_circle(x, y, 40, obj_floor_boost, false, true)) {
+	solid = false;
+} else {
+	solid = true;
 }
