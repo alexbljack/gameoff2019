@@ -14,7 +14,7 @@ bouncing = false;
 boosted = false;
 
 dash_power = 0;
-hp = max_hp;
+hp = 3;
 collision_speed = 5;
 
 global.dead = false;

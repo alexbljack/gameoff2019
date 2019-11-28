@@ -1,3 +1,3 @@
 dashing = false;
 speed = 3;
-alarm[2] = 1;
+alarm[1] = 1;
