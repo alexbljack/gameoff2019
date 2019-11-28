@@ -1,1 +1,0 @@
-boost_direction = 45;
