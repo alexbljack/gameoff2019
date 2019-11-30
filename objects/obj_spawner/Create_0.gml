@@ -10,8 +10,8 @@ global.current_score = 0;
 game_time = 0;
 
 waves = ds_list_create();
-enemy_count = 5;
-total_waves = 3;
+enemy_count = 2;
+total_waves = 100;
 //List of enemy
 enemy_list = ds_list_create();
 ds_list_add(enemy_list, obj_enemy);
@@ -28,9 +28,12 @@ while (wave <= total_waves) {
 	}
 	position++;
 	wave++;
+	enemy_count++;
 }
 
 // Spawn position
 spawn[0,0] = 100;
 spawn[0,1] = 100;
+
+
 
