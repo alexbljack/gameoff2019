@@ -66,7 +66,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "5",
+            "value": "2.5",
             "varName": "bounce_speed",
             "varType": 0
         }

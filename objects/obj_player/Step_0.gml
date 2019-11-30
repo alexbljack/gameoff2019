@@ -1,12 +1,12 @@
 var enemy = instance_place(x, y, obj_BaseEnemy);
-if (enemy and not bouncing and not dashing) {
+if (enemy and not bouncing and not dashing and not recovering) {
 	speed = 4;
 	direction = point_direction(enemy.x, enemy.y, x, y);
 	bouncing = true;
 }
 
 var projectile = instance_place(x, y, obj_projectile);
-if (projectile and not bouncing and not dashing) {
+if (projectile and not bouncing and not dashing and not recovering) {
 	speed = projectile.bounce_speed;
 	direction = point_direction(projectile.x, projectile.y, x, y);
 	bouncing = true;
@@ -37,7 +37,9 @@ var mver = key_down - key_up;
 var on_floor = place_meeting(x, y, obj_floor);
 
 if (not on_floor and not recovering and not dashing and not bouncing and not boosted) {
-	alarm[2] = room_speed * 2;
+	alarm[2] = room_speed * 2.4;
+	alarm[3] = 1;
+	instance_create_layer(x, y+9, "Instances", obj_player_damage);
 	recovering = true;
 	hp -= 1;
 	if (hp <= 0) {

@@ -6,7 +6,8 @@ if (triggered){
 		if (next[_WAVE] == c_wave) && (next[_DELAY] == timer) {
 			var spawnPoint = next[_SPAWN];
 			instance_activate_object(obj_portal);
-			instance_create_layer(spawn[spawnPoint, 0], spawn[spawnPoint, 1], "Enemy", next[_TYPE]);
+			var spw = instance_create_layer(spawn[spawnPoint, 0], spawn[spawnPoint, 1], "Enemy", obj_spawn);
+			spw.enemy = next[_TYPE];
 		}
 	}
 	timer++;

@@ -1,3 +1,6 @@
+draw_set_alpha(0.5);
+draw_ellipse_color(x-6, y+9, x+6, y+13, c_black, c_black, false);
+draw_set_alpha(1);
 draw_self();
 
 var x1 = x - 9;
@@ -16,5 +19,4 @@ if (global.DEBUG) {
 }
 
 var sword_dir = point_direction(x, y, mouse_x, mouse_y) - 90;
-draw_sprite_ext(spr_spear, 0, x, y + 4, 0.7, 0.7, sword_dir, c_white, 1);
-
+draw_sprite_ext(spr_spear, 0, x, y + 4, 0.7, 0.7, sword_dir, c_white, image_alpha);
