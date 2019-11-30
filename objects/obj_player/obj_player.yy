@@ -201,7 +201,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "10",
+            "value": "5",
             "varName": "max_hp",
             "varType": 1
         }
