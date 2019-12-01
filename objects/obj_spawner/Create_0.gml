@@ -25,16 +25,13 @@ while (wave <= total_waves) {
 
 	for (var j = 0; j < enemy_count; j++) {
 		random_enemy = irandom_range(0, 2);	
-		ds_list_add(waves, [wave, enemy_list[| random_enemy], 0, j*position]);	
+		ds_list_add(waves, [wave, enemy_list[| random_enemy], 0, j*position]);
 	}
 	position++;
 	wave++;
 	enemy_count++;
 }
 
-// Spawn position
-spawn[0,0] = 100;
-spawn[0,1] = 100;
 
 
 

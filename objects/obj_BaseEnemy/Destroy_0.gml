@@ -3,7 +3,7 @@
 if (instance_exists(obj_spawner)){
 	with (obj_spawner) {
 		if (triggered){
-			remaining[c_wave]--;
+			remaining[c_wave] -= 0.5;
 		}
 	}
 }
